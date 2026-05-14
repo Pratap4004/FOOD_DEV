@@ -4,10 +4,10 @@ pipeline {
 
     environment {
 
-        SCANNER_HOME = tool 'sonar-scanner'
+        SCANNER_HOME = tool 'sonar'
 
-        BACKEND_IMAGE = 'ravikirankadari/food-backend:v1'
-        FRONTEND_IMAGE = 'ravikirankadari/food-frontend:v1'
+        BACKEND_IMAGE = 'prathap/food-backend:v1'
+        FRONTEND_IMAGE = 'prathap/food-frontend:v1'
 
     }
 
