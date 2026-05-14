@@ -18,7 +18,7 @@ pipeline {
 
                 git(
                     branch: 'main',
-                    url: 'https://github.com/kadariravikiran/FOOD_DEV.git',
+                    url: 'https://github.com/Pratap4004/FOOD_DEV.git',
                     credentialsId: 'git-cred'
                 )
 
