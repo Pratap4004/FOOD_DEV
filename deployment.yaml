@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: food-dev-container
-        image: ravikirankadari/food-dev:v1
+        image: rprathap4004/food-dev:v1
 
         ports:
         - containerPort: 8080
